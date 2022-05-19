@@ -2,7 +2,7 @@ import './css/styles.css';
 
 import debounce from 'lodash.debounce';
 
-import Notiflix, { Notify } from 'notiflix';
+import { Notify } from 'notiflix';
 
 import { fetchCountries } from "./fetchCountries.js";
 
